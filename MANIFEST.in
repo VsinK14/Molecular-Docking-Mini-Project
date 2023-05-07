@@ -1,0 +1,19 @@
+include LICENSE
+include Main/etc/glowworm.conf
+include Main/scoring/tobi/data/*.dat
+include Main/scoring/dfire/data/DCparams
+include Main/scoring/fastdfire/data/DCparams
+include Main/scoring/pisa/data/pisa.params
+include Main/scoring/dfire2/data/dfire2_energies.npy
+include Main/scoring/dfire2/data/dfire_pair.lib
+include Main/scoring/mj3h/data/MJ_potentials.dat
+recursive-include Main/test/prep/golden_data *
+recursive-include Main/test/gso/searchspace/golden_data *
+recursive-include Main/test/gso/golden_data *
+recursive-include Main/test/util/golden_data *
+recursive-include Main/test/bin/post/golden_data *
+recursive-include Main/test/bin/golden_data *
+recursive-include Main/test/pdbutil/golden_data *
+recursive-include Main/test/scoring/golden_data *
+recursive-include Main/test/structure/golden_data *
+recursive-include Main/test/mathutil/golden_data *
